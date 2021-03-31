@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:lightpink
+}
+.onehead{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nut{
+    cursor: pointer;}
+#middle-pic{
+    background-image: url(./mainpic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#middle-pic >h1{
+    color: brown;
+    font-size: 50px;
+}
+#middle-pic >p{
+    font-size: 25px;
+}
+#section-a{
+    background-color:lightsalmon;
+}
+#section-b{
+    background-color:linen;
+}
+#section-c{
+    background-color: wheat;
+}
